@@ -1,8 +1,3 @@
-from telebot import TeleBot
-from telebot import types
-bot = TeleBot(BOT_TOKEN, threaded=False)
-hideBoard = types.ReplyKeyboardRemove()  
-
 TEST                =    1
 
 TEST_TOKEN      = 'TEST_TOKEN'
@@ -17,3 +12,9 @@ if TEST:
 else:
     BOT_TOKEN       = AROMA_TOKEN
     GRUPPO_AROMA    = AROMA_GRUPPO
+
+
+from telebot import TeleBot
+from telebot import types
+bot = TeleBot(BOT_TOKEN, threaded=False)
+hideBoard = types.ReplyKeyboardRemove()  
