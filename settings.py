@@ -17,4 +17,4 @@ else:
 from telebot import TeleBot
 from telebot import types
 bot = TeleBot(BOT_TOKEN, threaded=False)
-hideBoard = types.ReplyKeyboardRemove()  
+hideBoard = types.ReplyKeyboardRemove()
